@@ -1,0 +1,45 @@
+#header {
+    background: rgba(52, 58, 64, 0.2);
+    transition: all 0.5s;
+    z-index: 997;
+    top: 40px;
+  }
+  
+  #header.header-scrolled {
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  
+  #header .logo {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  #header .logo a {
+    color: #fff;
+  }
+  
+  #header .logo img {
+    max-height: 40px;
+  }
+  
+  @media (max-width: 992px) {
+    #header {
+      top: 0;
+      padding: 15px 0;
+      background: transparent;
+    }
+    #header .logo {
+      font-size: 28px;
+    }
+  }
+  
+  .header-inner-pages {
+    background: rgba(0, 0, 0, 0.9) !important;
+  }
+  

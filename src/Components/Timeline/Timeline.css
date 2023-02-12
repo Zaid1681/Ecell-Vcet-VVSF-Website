@@ -1,0 +1,203 @@
+/* @import https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext; */
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* body {
+
+} */
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+/* Docelowe style timeline */
+
+.nayma-container {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.nayma-container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#nayma-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#nayma-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: rgba(0,0,0,.15);
+}
+@media only screen and (min-width: 1170px) {
+  #nayma-timeline {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  #nayma-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+}
+
+.nayma-timeline-block {
+  position: relative;
+  margin: 2em 0;
+}
+.nayma-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nayma-timeline-block:first-child {
+  margin-top: 0;
+}
+.nayma-timeline-block:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1170px) {
+  .nayma-timeline-block {
+    margin: 4em 0;
+  }
+  .nayma-timeline-block:first-child {
+    margin-top: 0;
+  }
+  .nayma-timeline-block:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.nayma-timeline-img {
+  background: #56A2DB;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (max-width: 1170px) {
+.nayma-timeline-img {
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .nayma-timeline-img {
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: 20px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+
+.nayma-timeline-content {
+  position: relative;
+  margin-left: 60px;
+  background: white;
+  border-radius: 0.25em;
+  padding: 1em;
+  box-shadow: 0 2px 7px rgba(0,0,0,.15);
+}
+.nayma-timeline-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nayma-timeline-content h2 {
+  color: #303e49;
+}
+.nayma-timeline-content p, .nayma-timeline-content {
+  font-size: 12px;
+  font-size: 0.7125rem;
+}
+.nayma-timeline-content .nayma-timeline-content {
+  display: inline-block;
+}
+.nayma-timeline-content p {
+  font-weight: 300;
+  margin: 1em 0;
+  line-height: 1.6;
+}
+.nayma-timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid white;
+}
+@media only screen and (min-width: 768px) {
+  .nayma-timeline-content h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  .nayma-timeline-content p {
+    font-size: 16px;
+    font-size: .9rem;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .nayma-timeline-content {
+    margin-left: 0;
+    padding: 1.6em;
+    width: 45%;
+  }
+  .nayma-timeline-content::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: white;
+  }
+  .nayma-timeline-block:nth-child(even) .nayma-timeline-content {
+    float: right;
+  }
+  .nayma-timeline-block:nth-child(even) .nayma-timeline-content::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: white;
+  }
+}
+
+footer {
+color: #555;
+font-size:12px;
+margin-top:2em;
+text-align:center;
+}
+
+footer a {
+color:#008FEA;
+text-decoration:none;
+}

@@ -1,0 +1,33 @@
+
+/* .about > h1{
+    text-align: center;
+    margin: 3rem;
+} */
+
+.aboutContainer{
+    display: flex;
+    gap: 20px;
+}
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 1.5;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.aboutImg{
+    display: flex;
+    flex: 1;
+}
+.aboutImg > img{
+    margin: auto;
+    height: 250px;
+    border-radius: 10% ;
+
+}
+.aboutReverse{
+    display: flex;
+    flex-direction: row-reverse ;
+}

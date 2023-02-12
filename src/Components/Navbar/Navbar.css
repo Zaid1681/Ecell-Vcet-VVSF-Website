@@ -1,0 +1,15 @@
+.navbarContainer{
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    
+}
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: auto;
+    text-align: center;
+    gap: 2rem;
+    color: black;
+}
