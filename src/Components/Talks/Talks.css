@@ -1,0 +1,10 @@
+.speakersContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:  wrap;
+    margin: auto;
+}
+.talksContainer{
+    margin: auto    ;
+}

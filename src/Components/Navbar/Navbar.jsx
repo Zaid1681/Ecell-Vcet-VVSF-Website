@@ -16,13 +16,19 @@ const Navbar = () => {
                 <a class="nav-link  nav-link-title " aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-title " href="#">About Us</a>
+                <a class="nav-link nav-link-title " href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-title " href="#">Event Timeline</a>
+                <a class="nav-link nav-link-title " href="#timeline">Event Timeline</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link-title " href="#">Our Events</a>
+                <a class="nav-link nav-link-title " href="#events">Our Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-title " href="#talks">E-Talks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-title " href="#">Pitches</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-title " href="#">Contact Us</a>

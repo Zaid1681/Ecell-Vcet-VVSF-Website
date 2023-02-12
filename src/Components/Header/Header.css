@@ -42,4 +42,11 @@
   .header-inner-pages {
     background: rgba(0, 0, 0, 0.9) !important;
   }
+
+  .headerContainer > img{
+    height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+
+  }
   

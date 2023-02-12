@@ -1,9 +1,4 @@
 
-/* .about > h1{
-    text-align: center;
-    margin: 3rem;
-} */
-
 .aboutContainer{
     display: flex;
     gap: 20px;
@@ -20,14 +15,29 @@
 .aboutImg{
     display: flex;
     flex: 1;
+    transition:  ease 0.6s;
+
 }
 .aboutImg > img{
     margin: auto;
     height: 250px;
     border-radius: 10% ;
+    cursor: pointer;
 
 }
 .aboutReverse{
     display: flex;
     flex-direction: row-reverse ;
+}
+.aboutImage:hover{
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    transform: scale(1.1); 
+
+}
+.aboutRImage:hover{
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    transform: scale(1.1); 
+
 }

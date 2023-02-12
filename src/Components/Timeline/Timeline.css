@@ -201,3 +201,22 @@ footer a {
 color:#008FEA;
 text-decoration:none;
 }
+.timelineContent{
+  cursor: pointer;
+}
+.timelineContent:hover{
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+  /* color: white; */
+  /* background-color: #202020; */
+}
+.timelinePopup{
+  cursor: pointer;
+  transform: 2s;
+}
+.timelinePopup:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
