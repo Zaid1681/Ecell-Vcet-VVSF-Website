@@ -1,5 +1,5 @@
 import './App.css'
-import  {Navbar , Header , About , Timeline , Events}  from "./Components"
+import  {Navbar , Header , About , Timeline , Events, Contact}  from "./Components"
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <About />
       <Timeline />
       <Events />
+      <Contact />
     </div>
   )
 }

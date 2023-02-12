@@ -13,3 +13,8 @@
     gap: 2rem;
     color: black;
 }
+
+.navbar-brand{
+    font-weight: 800;
+    letter-spacing: 1px;
+}
