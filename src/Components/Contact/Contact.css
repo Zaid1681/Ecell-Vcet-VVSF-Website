@@ -5,7 +5,7 @@
 
 .colCard{
     text-align: center;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     width: 30%;
     padding:20px;
     box-shadow: 2px 3px 10px #888888;
@@ -14,4 +14,21 @@
 .colCard .logo{
     font-size: 35px;
     margin-bottom: 15px;
+}
+
+
+.colCard:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 20px #888888;
+}
+
+.map {
+  margin: 50px 0 ;
+  text-align: center;
+
+}
+
+.map iframe{
+    height: 400px;
+    width: 60%;
 }
