@@ -1,0 +1,17 @@
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colCard{
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    width: 30%;
+    padding:20px;
+    box-shadow: 2px 3px 10px #888888;
+}
+
+.colCard .logo{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
