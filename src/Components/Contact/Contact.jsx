@@ -18,7 +18,7 @@ const Contact = () => {
                                 <FaPhoneAlt />  
                             </div>
                             <h4>Call Us</h4>
-                            <p className="card-text">+91 8805787962</p>
+                            <p className="card-text"> <b>+91 8805787962</b> </p>
                     </div>
                     <div className="colCard">
                             <div className="logo">
@@ -32,7 +32,7 @@ const Contact = () => {
                                 <FaEnvelope />  
                             </div>
                             <h4>Email</h4>
-                            <p className="card-text">ecell@vcet.edu.in</p>
+                            <p className="card-text"> <b>ecell@vcet.edu.in</b> </p>
                     </div>
                 </div>
             </div>
